@@ -1,6 +1,6 @@
 # jasmine-browser
 
-This is one tiny implementation of jasmine, which is runnable in the browser environment.  I develop this tiny toy 'framework' for fun and to show the possibility of running jasmine in browser with extreme short codes.
+This is one tiny implementation of jasmine, which is runnable in the browser environment.  I create this tiny toy 'framework' for fun and to have a jasmine runnable in browser with the shortest codes that I can write.
 
 
 ## Usage
@@ -48,7 +48,7 @@ describe("Testing", function() {
 ## Features
 This module is developed mostly for fun & exploration, hence the features will be pretty simple. Now the features include: 
 
-- basic support of `describe, expect & it`, just like jasmine. 
+- basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
 
 More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. And another brother module is scheduling to release soon as well, i.e, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
