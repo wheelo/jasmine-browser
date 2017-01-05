@@ -1,6 +1,8 @@
 # jasmine-browser
 
-This is one tiny implementation of jasmine, which is runnable in the browser environment.  I create this tiny toy 'framework' for fun and to have a jasmine runnable in browser with the shortest codes that I can write.
+This is one tiny implementation of jasmine, which is runnable in the browser environment. I create this tiny toy 'framework' for fun and to have a jasmine runnable in browser with the shortest codes that I can write.
+
+
 
 
 ## Usage
@@ -51,7 +53,7 @@ This module is developed mostly for fun & exploration, hence the features will b
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
 
-More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. And another brother module is scheduling to release soon as well, i.e, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
+More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. There is no support of gulp, webpack or browserify yet right now, but fortunately they will come out soon. One more thing, another brother module is about coding on schedule, i.e, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
 
 Stay tuned. ~
 
