@@ -6,7 +6,7 @@ This is one tiny implementation of jasmine, which is runnable in the browser env
 
 
 ## Usage
-By now, you should use it in the browser environment. And to observe the resulting test record, you might refer to your old friend `DevTools JavaScript Console`(*i.e.*, F12 in some systems).
+By now, you are only able to use it in browser environment and might refer to your old friend **JavaScript DevTools Console**(*i.e.*, F12 in some browsers) for some help to observe the resulting record.
 
 
 ```js
