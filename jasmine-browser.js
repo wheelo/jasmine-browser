@@ -1,4 +1,10 @@
-//jasmine.createSpy() .toHaveBeenCalled()  .toHaveBeenCalledWith
+/**
+ * @file
+ * @author wheelo
+ * Created by wheelo on 17/1/5.
+ */
+
+
 ;(function(window){
 	var tests = [];
 	var currentTest;

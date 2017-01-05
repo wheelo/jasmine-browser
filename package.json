@@ -1,6 +1,6 @@
 {
   "name": "jasmine-browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A jasmine plugin running in browser",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "jasmine-browser",
     "plugin",
     "test",
-    "lite",
+    "lite"
   ],
   "author": "wheelo",
   "license": "MIT",
