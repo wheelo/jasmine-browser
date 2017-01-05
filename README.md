@@ -1,12 +1,12 @@
 # jasmine-browser
 
-This is one tiny implementation of jasmine, which is runnable in the browser environment. I create this tiny toy 'framework' for fun and to have a jasmine runnable in browser with the shortest codes that I can write.
+This is one tiny implementation of jasmine, which is runnable in the browser environment. I create this tiny toy 'framework' basically for fun and to have a jasmine runnable in browser with the shortest codes that I can write.
 
 
 
 
 ## Usage
-By now, you should use it in the browser environment. And to observe the resulting test record, you should use the browser F12 comandline tool.
+By now, you should use it in the browser environment. And to observe the resulting test record, you might refer to your old friend `DevTools JavaScript Console`(*i.e.*, F12 in some systems).
 
 
 ```js
@@ -48,12 +48,12 @@ describe("Testing", function() {
 
 
 ## Features
-This module is developed mostly for fun & exploration, hence the features will be pretty simple. Now the features include: 
+This module is developed basically for fun & exploration, hence the features will be quite simple initially, but it will be improved in the future. The current features include: 
 
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
 
-More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. There is no support of gulp, webpack or browserify yet right now, but fortunately they will come out soon. One more thing, another brother module is about coding on schedule, i.e, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
+More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. There is no support of gulp, webpack or browserify yet right now, but fortunately they will come out soon. One more thing, another brother module is about coding on schedule, *i.e.*, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
 
 Stay tuned. ~
 
