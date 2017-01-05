@@ -46,10 +46,12 @@ describe("Testing", function() {
 
 
 ## Features
-This module is developed mostly for fun & exploration, which shows the possibility of running jasmine test in browser with the LOC under 100 lines. Now the features include: 
+This module is developed mostly for fun & exploration, hence the features will be pretty simple. Now the features include: 
 
 - basic support of `describe, expect & it`, just like jasmine. 
 - support the asynchronous test.
 
-More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is in development. And another brother module is in process too, `jasmine-node` the one which can test in node.js environment and use the node module  `process.nextTick` to pollyfill. Stay tuned. ~
+More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. And another brother module is scheduling to release soon as well, i.e, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
+
+Stay tuned. ~
 
