@@ -38,24 +38,8 @@ describe("Testing", function() {
 		expect(arr).toEqual({a:1, b:3, c:5});
 	});
 	
-	/*
-	it("createSpy", function() {
-		//PubSub/Promise
-		var watchFn = createSpy();
 
-		expect(watchFn).toHaveBeenCalled();
-		//expect(watchFn).toHaveBeenCalledWith(scope);
-	});
-
-	it('resolves promise at next digest', function() {
-		var d = $q.defer();
-		var promiseSpy = jasmine.createSpy();
-		d.promise.then(promiseSpy);
-		d.resolve(42);
-		$rootScope.$apply();
-		expect(promiseSpy).toHaveBeenCalledWith(42);
-	});
-	*/
+	// createSpy & toHaveBeenCalledWith is in development
 
 });
 ```
