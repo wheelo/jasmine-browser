@@ -1,6 +1,6 @@
 # jasmine-browser
 
-This is one tiny implementation of jasmine, which is runnable in the browser environment. I create this tiny toy 'framework' basically for fun and to have a jasmine runnable in browser with the minimum mount of code that I can write.
+This is one tiny implementation of jasmine, which is runnable in the browser environment. I create this tiny toy 'framework' basically for fun and to have a jasmine runnable in browser with the minimum codes that I can write.
 
 
 
@@ -48,7 +48,7 @@ describe("Testing", function() {
 
 
 ## Features
-This module is developed basically for fun & exploration, hence the features is quite simple initially, but it will be improved in the future. The current features include: 
+This module is developed basically for fun & exploration, hence the features are quite limited initially, but it will be improved in the future. The current features include: 
 
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
