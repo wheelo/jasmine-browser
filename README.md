@@ -6,7 +6,7 @@ This is one tiny implementation of jasmine, which is runnable in the browser env
 
 
 ## Usage
-By now, you should only use it in browser environment(for the name) and might refer to your old friend **JavaScript DevTools Console**(*i.e.*, F12 in some browsers) to observe the resulting record.
+By now, you should only deploy it in browser environment(for the name) and might refer to your old friend **JavaScript DevTools Console**(*i.e.*, F12 in some browsers) to observe the resulting record.
 
 
 ```js
@@ -48,12 +48,12 @@ describe("Testing", function() {
 
 
 ## Features
-This module is developed basically for fun & exploration, hence the features will be quite simple initially, but it will be improved in the future. The current features include: 
+This module is developed basically for fun & exploration, hence the features is quite simple initially, but it will be improved in the future. The current features include: 
 
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
 
-More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. There is no support of gulp, webpack or browserify yet right now, but fortunately they will come out soon. One more thing, another brother module is about coding on schedule, *i.e.*, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
+More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. There is no support of gulp, webpack or browserify yet right now, but still they are on schedule. One more thing, another brother module is about coding on schedule, *i.e.*, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
 
 Stay tuned. ~
 

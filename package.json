@@ -1,6 +1,6 @@
 {
   "name": "jasmine-browser",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A jasmine plugin running in browser",
   "main": "index.js",
   "scripts": {
