@@ -5,7 +5,7 @@
  */
 
 
-;(function(window){
+;(function(global){
 	var tests = [];
 	var currentTest;
 	var passed = 0;
@@ -103,21 +103,33 @@
 		}
 	}
 
-	window.expect = function(value) {
+	global.expect = function(value) {
 		return new Expectation(value, currentTest);
 	}
 
-	window.describe = function(desc, its) {
-		window.beforeEach = function(name, callback) {
+	global.describe = function(desc, its) {
+		global.beforeEach = function(name, callback) {
 			tests.unshift(new Test(desc + " " + name, callback));
 		}
-		window.it = function(name, callback) {
+		global.it = function(name, callback) {
 			tests.push(new Test(desc + " " + name, callback));
 		}
 		its();
 		setTimeout(run, 0);
 	}
 
+
+	if (typeof require === 'function' && typeof module === 'object' && module && typeof exports === 'object' && exports) {
+        module.exports = jasmine;
+    }
+    else if (typeof define === 'function' && define.amd) {
+        define(function() { return (global.jasmine = jasmine) });
+    }
+    else {
+        global.jasmine = jasmine;
+    }
+
+// 增加Node的pollifill能力
 })(window);
 
 

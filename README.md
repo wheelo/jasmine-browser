@@ -53,7 +53,7 @@ This module is developed basically for fun & exploration, hence the features are
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
 
-More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way. There is no support of gulp, webpack or browserify yet right now, but still they are on schedule. One more thing, another brother module is about coding on schedule, *i.e.*, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
+More features, like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` is on the way coding. There is no support of gulp, webpack or browserify yet right now, but still they are on schedule. One more thing, another brother module is about crafting on schedule, *i.e.*, `jasmine-node`, the one which can test in node.js environment which will use the node module  `process.nextTick` for a pollyfill. 
 
 Stay tuned ~
 
