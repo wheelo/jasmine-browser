@@ -118,7 +118,7 @@
 		setTimeout(run, 0);
 	}
 
-
+	/*
 	if (typeof require === 'function' && typeof module === 'object' && module && typeof exports === 'object' && exports) {
         module.exports = jasmine;
     }
@@ -128,8 +128,10 @@
     else {
         global.jasmine = jasmine;
     }
+    */
 
-// 增加Node的pollifill能力
+	// todo增加Node的pollifill能力
+	
 })(window);
 
 
