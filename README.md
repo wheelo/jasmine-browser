@@ -52,7 +52,7 @@ This module is orginally coded for fun & exploration, hence the features are qui
 - support the asynchronous test.
 
 
-While I have not sketched out the other API akin to original 'jasmine' at a higher level yet, you should be awared that they actually exsit and if possible will be brought out in the near future. What the current codes I write here are pieces of demonstration of showing how short and runable codes I could write for one coarse mimic of jasmine(So bear me for a while). There are certain more features comming out near future, features like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` are all on schedule to be released. 
+While I have not sketched out the other API akin to original 'jasmine' at a higher level yet, you should be awared that they actually exsit and if possible will be brought out in the near future. What the current codes I write here are pieces of demonstration of showing how short and runable codes I could write for one coarse mimic of jasmine(So bear me for a while). Features like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` will be packed as one version to be released afterwards. 
 
 One last aside, there is even another brother module I am working on, namely `jasmine-node`, this ongoing module is able to perform jasmine test in node.js with a silimar implementation of this 'jasmine-browser'(PS: hint, it uses the node `process.nextTick` for a pollyfill). 
 
