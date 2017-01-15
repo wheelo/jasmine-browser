@@ -46,19 +46,17 @@ describe("Testing", function() {
 
 
 ## Features
-This module is developed orginally for fun & exploration, hence the features are quite limited initially, but it will be improved in the future. The current features include: 
+This module is orginally coded for fun & exploration, hence the features are quite limited. The current features only include: 
 
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
 - support the asynchronous test.
 
 
-While I have not sketched out the other API akin to original 'jasmine' at a higher level yet, you should be awared that they atually exsit and will be brought out in the future. What the codes I write down here are only a demonstration of showing how short and runable codes I can write down for a coarse mimic of jasmine(So bear codes of mine for a while). There are certain more features comming out near future, features like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` are all on schedule to be released. 
+While I have not sketched out the other API akin to original 'jasmine' at a higher level yet, you should be awared that they atually exsit and will be brought out in the future. What the codes I write down here are only a demonstration of showing how short and runable codes I can write down for a coarse mimic of jasmine(So bear me for a while). There are certain more features comming out near future, features like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` are all on schedule to be released. 
 
 One last aside, there is even another brother module I am working on, namely `jasmine-node`, this ongoing module is able to perform jasmine test in node.js with a silimar implementation of this 'jasmine-browser'(PS: hint, it uses the node `process.nextTick` for a pollyfill). 
 
-Finally, There are no supports of gulp, webpack or browserify either right now, but they will also be brought out soon, definetely not long afterwards. 
-
-For now, suffice it to merely enjoy the poor interface I have implemented. 
+Finally, There are no supports of gulp, webpack or browserify either right now, but they will also be brought out soon, definetely not long afterwards. For now, suffice it to merely enjoy the poor interface I have implemented. 
 
 Stay tuned~
 
