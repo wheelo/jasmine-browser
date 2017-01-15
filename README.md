@@ -52,9 +52,9 @@ This module is developed orginally for fun & exploration, hence the features are
 - support the asynchronous test.
 
 
-While I have not sketched out the other API akin to original 'jasmine' at a higher level yet, you should be awared that they atually exsit and will be brought out in the future. What the codes I write down here are only a demonstration of showing how short and runable codes I can write down for a coarse mimic of jasmine. So bear the codes of mine. There are certain more features comming out near future, features like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` are all on schedule to be released. 
+While I have not sketched out the other API akin to original 'jasmine' at a higher level yet, you should be awared that they atually exsit and will be brought out in the future. What the codes I write down here are only a demonstration of showing how short and runable codes I can write down for a coarse mimic of jasmine(So bear codes of mine for a while). There are certain more features comming out near future, features like `createSpy`, `toHaveBeenCalled` and `toHaveBeenCalledWith` are all on schedule to be released. 
 
-There are even another brother module ongoing I write about, namely `jasmine-node`, the one which can test in node.js environment which uses the node module  `process.nextTick` for a pollyfill. 
+One last aside, there is even another brother module I am working on, namely `jasmine-node`, this ongoing module is able to perform jasmine test in node.js with a silimar implementation of this 'jasmine-browser'(PS: hint, it uses the node `process.nextTick` for a pollyfill). 
 
 Finally, There are no supports of gulp, webpack or browserify either right now, but they will also be brought out soon, definetely not long afterwards. 
 
