@@ -56,7 +56,7 @@ While I have not sketched out the other APIs akin to original 'jasmine' at a hig
 
 One last aside, there is even another brother module I am working on, namely `jasmine-node`, this ongoing module is able to perform jasmine test in node.js with a silimar implementation of this 'jasmine-browser'(hint: it uses the node `process.nextTick` for a pollyfill). 
 
-There is neither support of gulp nor the supports of browserify and webpack in current, but they will also be brought out soon, definetely not long afterwards. For now, suffice it to enjoy the poor interfaces I have just implemented. 
+There is neither the support of gulp nor the support of browserify and webpack in current version, but I think they will all bring out in future version(believe me). For now, suffice it to enjoy the poor interfaces I've just implemented. 
 
 Stay tuned~
 
