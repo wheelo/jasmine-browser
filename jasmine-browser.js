@@ -10,6 +10,7 @@
 	var currentTest;
 	var passed = 0;
 	var failed = 0;
+	var currentDesc = '';
 
 	function Test(name, callback) {
 		this.name = name;
@@ -108,15 +109,19 @@
 	}
 
 	global.describe = function(desc, its) {
-		global.beforeEach = function(name, callback) {
-			tests.unshift(new Test(desc + " " + name, callback));
-		}
-		global.it = function(name, callback) {
-			tests.push(new Test(desc + " " + name, callback));
-		}
+		currentDesc = desc;
 		its();
-		setTimeout(run, 0);
 	}
+
+	global.beforeEach = function(name, callback) {
+		tests.unshift(new Test(currentDesc + " " + name, callback));
+	}
+
+	global.it = function(name, callback) {
+		tests.push(new Test(currentDesc + " " + name, callback));
+	}
+	
+	setTimeout(run, 0);
 
 	/*
 	if (typeof require === 'function' && typeof module === 'object' && module && typeof exports === 'object' && exports) {
