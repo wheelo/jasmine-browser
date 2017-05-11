@@ -97,6 +97,16 @@
 		next();
 		function next() {
 			if (index === tests.length) {
+				if (failed) {
+					window.jasmineBrowserErrorCallback && window.jasmineBrowserErrorCallback({
+						failed: failed
+					});
+				} else {
+					window.jasmineBrowserSuccessCallback && window.jasmineBrowserSuccessCallback({
+						passed: passed
+					});
+				}
+
 				console.info("   In total: " + passed + " passed,", failed + " failed.");
 			} else {
 				tests[index++].run(next);
