@@ -46,6 +46,16 @@ describe("Testing", function() {
 
 
 ## Features
+Global callbacks will be called if they are present, on tests complete:
+
+```
+// when all tests pass:
+window.jasmineBrowserSuccessCallback();
+
+// when one or more test fail:
+window.jasmineBrowserErrorCallback();
+```
+
 This module is orginally coded for fun & exploration, hence the features are quite limited. The current features only include: 
 
 - basic support of `describe`, `expect` & `it`, just like jasmine. 
